@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f2f2f2;
+}
+
+header {
+    background: #003366;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav a {
+    color: white;
+    margin-left: 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.hero {
+    text-align: center;
+    padding: 40px;
+}
+
+.hero img {
+    width: 150px;
+    border-radius: 50%;
+}
+
+.about, .skills, .projects, .contact {
+    background: white;
+    margin: 20px;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.skills-grid, .project-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+}
+
+.skill-box, .project-card {
+    background: #003366;
+    color: white;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    background: #003366;
+    color: white;
+    padding: 10px;
+}
